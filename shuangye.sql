@@ -5,6 +5,7 @@ USE shuangye;
 
 -- 用户列表
 CREATE TABLE sy_user(
+    
     Uid INT PRIMARY KEY AUTO_INCREMENT,
     ename VARCHAR(16),
     epwd varchar(16)
